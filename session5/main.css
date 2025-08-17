@@ -1,0 +1,27 @@
+/* .blue , .red {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+} */
+
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+.item {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 2.5%;
+}

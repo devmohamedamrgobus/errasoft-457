@@ -1,0 +1,134 @@
+/* .box {
+    box-sizing: border-box;
+    width: 100px;
+    height: 120px;
+    background: blueviolet;
+    margin: 100px auto;
+} */
+
+/* button {
+    border: none;
+    padding: 10px 20px;
+    background: rgb(121, 72, 167);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    color: rgb(250, 213, 213);
+    background: rgb(61, 37, 84);
+} */
+/* 
+.container {
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+}
+
+.about-content {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.about-background {
+    width: 49.7%;
+    height: 100%;
+    display: inline-block;
+}
+
+.about-background img {
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* .red , .green , .blue {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background: red;
+    float: left;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+.clear {
+    clear: both;
+} */
+
+/* 
+.container {
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+}
+.about-content , .about-background {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.about-content h2 {
+    font-size: 40px;
+}
+.about-content p {
+    color: rgb(134, 132, 132);
+    width: 70%;
+    margin: 7% 0;
+}
+.about-content button {
+    padding: 10px 40px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.about-background {
+    box-sizing: border-box;
+    padding: 20px 60px;   
+} */
+
+.container {
+    width: 85%;
+    height: 30vh;
+    margin: auto;
+}
+.item {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 4%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.item i {
+    font-size: 32px;
+    color: gray;
+}
+
+.item h2 {
+    font-size: 50px;
+}
+
+.item h4 {
+    font-size: 20px;
+    font-weight: 100;
+        color: gray;
+
+}
