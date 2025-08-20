@@ -1,0 +1,31 @@
+/* .container {
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    background: gray;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-top: 10px;
+} */
+
+
+/* .about {
+    width: 10%;
+    height: 100px;
+    margin: auto;
+    background: rgb(23, 206, 26);
+    overflow: hidden;
+} */
+body {
+    height: 3000px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 0, 0);
+}
