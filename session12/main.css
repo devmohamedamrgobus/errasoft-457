@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    height: 3000px;
+}
+*{
+    margin: 0;
+    font-family: var(--pfont);
+}
+:root {
+    --pcolor:#4caf50;
+    --bgcolor:#f8f8f8;
+    --subtitlecolor:#888;
+    --containerWidth:85%;
+    --pfont:"Open Sans", sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url("img/business-2.jpg") rgba(0, 0, 0, 0.674);
+    background-blend-mode: color;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.about {
+    width: 80%;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+}
+.about h3 {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.about p {
+    font-size: 50px;
+} 
+.about button {
+    padding: 16px 30px;
+    border: none;
+    border-radius: 2px;
+    background: var(--pcolor);
+    color: white;
+    margin-left: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navbar {
+    width: var(--containerWidth);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.navbar-white {
+    transition: 1s;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: white;
+}
+.navbar--logo , .navbar--links {
+    height: 100%;
+}
+
+.navbar--logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--logo  img {
+    width: 136px;
+    height: 36px;
+}
+
+.navbar--links {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar--links ul {
+    display: flex;
+    /* margin-top: 10px; */
+}
+
+.navbar--links ul li {
+    margin-left: 25px;
+    list-style-type: none;
+    padding: 24px 0;
+}
+.navbar--links ul li:nth-child(1){
+    border-top:4px solid var(--pcolor);
+    box-sizing: border-box;
+}
+.navbar--links ul li a  , .navbar--links button {
+    text-transform: uppercase;
+} 
+.navbar--links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.navbar--links  button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 2px;
+    background: white;
+    color: black;
+    margin-left: 15px;
+    font-weight: 500;
+}
